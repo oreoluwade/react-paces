@@ -22,10 +22,22 @@ code {
     monospace;
 }
 
-.App {
-    text-align: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
+.app {
+
+    &--root {
+        text-align: center;
+        height: 100vh;
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    &--base {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 90vh;
+        margin: 0 auto;
+    }
 }
 
